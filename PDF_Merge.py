@@ -14,7 +14,7 @@ except ImportError:  # 如果匯入失敗（即 pypdf 未安裝）
         print("pypdf 已成功安裝！")
     except Exception as e:  # 如果安裝失敗
         print(f"安裝 pypdf 失敗: {str(e)}")
-        print("請手動執行 'pip install pypdf' 或檢查網路與權限")
+        print("請以Windows+R, cmd執行 'pip install pypdf'")
         sys.exit(1)  # 退出程式
 
 def merge_pdfs_in_folder(folder_path, output_filename="merged_output.pdf"):
