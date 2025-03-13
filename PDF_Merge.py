@@ -1,3 +1,4 @@
+# 把要合併的檔案放在D:\PDF_Merge，會依檔名排序合併，輸出檔案在同一個資料夾
 import os  # 匯入 os 模組以處理檔案和路徑
 import sys  # 匯入 sys 模組以處理系統相關功能
 import subprocess  # 匯入 subprocess 模組以執行外部命令
